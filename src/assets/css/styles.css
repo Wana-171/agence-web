@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto/Roboto-Italic.ttf') format('truetype');
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Italic.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
@@ -13,4 +13,3 @@
   color: red;
   font-family: "Roboto";
 }
-
