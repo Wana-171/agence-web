@@ -13,6 +13,7 @@ module.exports = {
   devtool: "inline-source-map",
   devServer: {
     static: path.resolve(__dirname, "./dist"),
+    port: 3000,
   },
   optimization: {
     runtimeChunk: "single",
@@ -21,6 +22,14 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, "./src/index.html"),
       filename: "index.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, "./src/pages/contact/index.html"),
+      filename: "contact.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, "./src/pages/services/services.html"),
+      filename: "services.html",
     }),
   ],
   module: {
@@ -41,12 +50,12 @@ module.exports = {
         test: /\.m?js$/,
         exclude: /(node_modules|bower_components)/,
         use: {
-          loader: 'babel-loader',
+          loader: "babel-loader",
           options: {
-            presets: ['@babel/preset-env']
-          }
-        }
-      }
+            presets: ["@babel/preset-env"],
+          },
+        },
+      },
     ],
   },
 };
