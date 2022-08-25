@@ -551,14 +551,18 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.mx-10 {
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
+.bg-pink-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 114 182 / var(--tw-bg-opacity));
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
 }
 
 .text-3xl {
@@ -566,23 +570,9 @@ video {
   line-height: 2.25rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
-.text-red-400 {
+.text-white {
   --tw-text-opacity: 1;
-  color: rgb(248 113 113 / var(--tw-text-opacity));
-}
-
-.underline {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 @font-face {
@@ -595,8 +585,27 @@ video {
   font-style: normal;
 }
 
+body {
+  height: 100vh;
+}
+
+.pl-5 {
+  padding-left: 5px;
+}
+
 .hello {
   color: red;
   font-family: "Roboto";
 }
+
+.bg-white {
+  background-color: white;
+}
+
+.text-black {
+  color: black;
+}
+
+
+
 

@@ -9,8 +9,25 @@
   font-style: normal;
 }
 
+body {
+  height: 100vh;
+}
+.pl-5 {
+  padding-left: 5px;
+}
 .hello {
   color: red;
   font-family: "Roboto";
 }
+
+.bg-white {
+  background-color: white;
+
+}
+.text-black {
+  color: black;
+}
+
+
+
 
