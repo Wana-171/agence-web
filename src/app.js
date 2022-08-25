@@ -28,3 +28,53 @@ function darkMode() {
  body.classList.toggle("text-white")
 }
 button.addEventListener("click",darkMode);
+
+// function test() {
+//   let name = "warren";
+// };
+
+// let name = "warren";
+
+
+// let data = {
+//   userName:"warren",
+//   iban:"fr7777777",
+
+// }
+
+// console.log(data);
+
+// let root = document.getElementById("root");
+// console.log(" Vous vous appelez: " + data.userName  +"   " +  data.iban);
+// console.log(`Vous vous appelez : ${data.userName}, votre IBAN est $ {data.iban}`)
+// let results = `Vous vous appelez : ${data.userName}, votre IBAN est $ {data.iban}`
+
+// let paragraph = document.createElement("p")
+
+// paragraph.innerHTML = results;
+// console.log(paragraph)
+
+// root.before(paragraph)
+
+// class User{
+//   constructor( username , iban , city) {
+//    this.username = username;
+//    this.iban = iban;
+//    this.city = city;
+//   }
+// }
+// new User
+// console.log(new User("warren" , fr, "Meaux"));
+
+// class Car {
+//   constructor(mark, modeL, price , color, desc) {
+//     this.mark = mark;
+//     this modeL = modeL;
+//     this price = price;
+//     this color = color; 
+//     this desc = desc;
+//   };
+// };
+
+// new Car 
+// console.log(new Car ("tesla" , "model S" , 55000,"white", "lorem"));

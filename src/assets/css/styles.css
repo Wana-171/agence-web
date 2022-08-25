@@ -28,6 +28,14 @@ body {
   color: black;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.z-10 {
+  z-index: -1;
+}
+
 
 
 
