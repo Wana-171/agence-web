@@ -25,27 +25,45 @@ import "./assets/css/styles.css";
 
 let button = document.getElementById("dark-mode");
 let body = document.querySelector("body");
-let p = document.querySelector("p")
-
+let p = document.querySelector("p");
 
 function darkMode() {
-    // alert("ok");
-    body.classList.toggle("bg-black");
-    body.classList.toggle("text-white");
-
+  // alert("ok");
+  body.classList.toggle("bg-black");
+  body.classList.toggle("text-white");
 }
 
 button.addEventListener("click", darkMode);
-
-
 
 let buttonblue = document.getElementById("blue-mode");
 let bodyblue = document.querySelector("body");
 
 function blueMode() {
-    // alert("ok");
-    body.classList.toggle("bg-blue-500");
-    bodyblue.classList.toggle("text-pink-500");
+  // alert("ok");
+  body.classList.toggle("bg-blue-500");
+  bodyblue.classList.toggle("text-pink-500");
 }
 
-buttonblue.addEventListener("click", blueMode)
+buttonblue.addEventListener("click", blueMode);
+
+//
+
+
+// console.log(profil1);
+
+let dataprofil1 = {
+  username: "Edouard",
+  pseudo: "Philipe",
+  city: "Paris",
+  age: "50",
+  mail: "edouardo@gmail.com",
+};
+
+profil1 = dataprofil1;
+console.log(profil1);
+
+let profil1 = document.getElementById("profil1")
+
+
+
+console.log(dataprofil1);
