@@ -14,3 +14,38 @@
   font-family: "Roboto";
 }
 
+.z-10 {
+  z-index: -1;
+}
+.absolute {
+  position: absolute;
+}
+.h-10 {
+  height: 50px;
+}
+.w-1-5 {
+  width: 16%;
+}
+
+.bg-img-background  {
+  background: url(http://localhost:8081/assets/img/casque-rose-rouge.jpg);
+}
+
+.bg-size {
+  background-size: cover;
+}
+
+.h-96 {
+  height: 100vh;
+}
+.text-center {
+  text-align: center;
+}
+
+.bg-pink-900{
+ 
+}
+
+
+
+
