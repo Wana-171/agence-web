@@ -15,7 +15,7 @@
 }
 
 .z-10 {
-  z-index: -1;
+  z-index: 1;
 }
 .absolute {
   position: absolute;
@@ -24,12 +24,15 @@
   height: 50px;
 }
 .w-1-5 {
-  width: 16%;
+  width: 12%;
 }
 
-.bg-img-background  {
-  background: url(http://localhost:8081/assets/img/casque-rose-rouge.jpg);
+.bottom-96 {
+  bottom: 626px;
 }
+/* .bg-img-background  {
+  background: url(http://localhost:8081/assets/img/casque-rose-rouge.jpg);
+} */
 
 .bg-size {
   background-size: cover;
