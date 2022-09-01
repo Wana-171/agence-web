@@ -28,7 +28,7 @@
 }
 
 .bottom-96 {
-  bottom: 626px;
+  bottom: 720px;
 }
 /* .bg-img-background  {
   background: url(http://localhost:8081/assets/img/casque-rose-rouge.jpg);
@@ -45,10 +45,26 @@
   text-align: center;
 }
 
-.bg-pink-900{
- 
+.object-cover {
+  object-fit: cover;
+}
+
+.h-full {
+  height: 2030px;
 }
 
 
-
-
+.animate-gradient {
+  animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

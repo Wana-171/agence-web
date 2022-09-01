@@ -133,7 +133,7 @@ button.addEventListener("click",darkMode);
 //     results() {
 //         console.log(`${super.flying()} avec l'avion de warren`);
 //     }
-// };
+// }; 
 
 
 //let=variable
@@ -163,4 +163,21 @@ button.addEventListener("click",darkMode);
 // let func = function name(params){
 // };
 //  let undefined = undefined;
+// menuburger
+// const meMobile = document.getElementById ("menu-mobile");
+// const navMobile = document.getElementById("nav-mobile");
+// const Menu = () => {
+//  const showMenu = () =>  {   
+//     navMobile.classList.toggle("hidden")
+//  };
+//  const closeMenu = () => {
+// navMobile.classList.contains("hidden") ? console.log("true") : navMobile.classList.add("hidden") ; 
+//  };
+//     meMobile.addEventListener("click",showMenu );
 
+//     root.addEventListener("click" , closeMenu) 
+// };
+
+// export default Menu;
+
+// import Menu from "./components/menu";
