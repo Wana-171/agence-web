@@ -21,15 +21,15 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "./src/pages/home/index.html"),
+      template: path.resolve(__dirname, "./src/assets/pages/home/index.html"),
       filename: "index.html",
     }),
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "./src/pages/contact/index.html"),
+      template: path.resolve(__dirname, "./src/assets/pages/contact/index.html"),
       filename: "contact.html",
     }),
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "./src/pages/services/services.html"),
+      template: path.resolve(__dirname, "./src/assets/pages/services/services.html"),
       filename: "services.html",
     }),
     new CopyPlugin({
