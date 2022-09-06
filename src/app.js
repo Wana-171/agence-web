@@ -22,7 +22,7 @@ import  "@fortawesome/fontawesome-free/js/all";
 // }
 
 // document.body.appendChild(component());
-
+//darkmode
 let button = document.getElementById("dark-mode");
 let body = document.querySelector("body");
 
@@ -181,3 +181,11 @@ button.addEventListener("click",darkMode);
 // export default Menu;
 
 // import Menu from "./components/menu";
+// import { Console as Test, Console2, Console3 } from "./console";
+// Test()
+// Console2()
+// Console3()
+// import Console from "./import1";
+// Console();
+// import * as Test from "./console";
+// Test.Console2();
