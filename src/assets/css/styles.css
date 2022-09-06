@@ -9,8 +9,301 @@
   font-style: normal;
 }
 
-.hello {
-  color: red;
-  font-family: "Roboto";
+/*--Header--*/
+
+/* hover: = talwind */
+
+/*--Body--*/
+
+/*--text--*/
+
+.serif {
+  font-family: Times, "Times New Roman", Georgia, serif;
+}
+
+/*--flex--*/
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.flex {
+  display: flex;
+}
+
+/*--Grind--*/
+
+.gap-4 {
+  gap: 1rem;
+}
+
+/*--Bg--*/
+
+.bg-origin-border {
+  background-origin: border-box;
+}
+
+.bg-origin-padding	{
+  background-origin: padding-box;
+}
+
+.bg-origin-content	{
+  background-origin: content-box;
+}
+
+/*--padding-and-margin--*/
+
+.p-4 {
+  padding: 1rem;/* 16px */
+}
+
+
+.pl-px {
+  padding-left: 1px;
+}
+
+.ml-40 {
+  margin-left: 10rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+/*--Border--*/
+
+.border-4 {
+  border-width: 4px;
+}
+
+/*--placement--*/
+
+.items-center {
+  align-items: center;
+}
+
+/*-----------------------------------------Format-tel------------------------------*/
+/*-----------------------------------------Format-sm------------------------------*/
+@media (max-width: 425px) {
+  .sm-img-01 {
+      height: 230px;
+      width: 250px;
+  }
+
+  .sm-img-02 {
+      height: 150px;
+      width: 150px;
+  }
+
+  .sm-img-03 {
+      height: 150px;
+      width: 150px;
+  }
+  .sm-bg-origin-border {
+      background-origin: border-box;
+    }
+
+    .sm-bg-origin-padding	{
+      background-origin: padding-box;
+    }
+
+    .sm-bg-origin-content	{
+      background-origin: content-box;
+    }
+
+    .sm-snap-center {
+      scroll-snap-align: center;
+    }
+
+    .sm-flex-1 {
+      flex: 1 1 0%;
+    }
+    
+    .sm-flex {
+      display: flex;
+    }
+
+    .sm-flex-col {
+      flex-direction: column;
+    }
+
+    .sm-grid-rows-1 {
+      grid-template-rows: repeat(1, minmax(0, 1fr));
+    }
+
+    .sm-justify-evenly {
+      justify-content: space-evenly;
+    }
+
+    .sm-p-4 {
+      padding: 1rem;/* 16px */
+    }
+    
+    .sm-pl-px {
+      padding-left: 1px;
+    }
+    
+    .sm-border-4 {
+      border-width: 4px;
+    }
+}
+
+/*--------------------------Format-md-----------------------------*/
+@media (min-width: 768px) {
+  .md-img-01-1 {
+      height: 360px;
+      width: 361px;
+  }
+
+  .md-img-02 {
+      height: 360px;
+      width: 361px;
+  }
+
+  .md-img-03 {
+      height: 360px;
+      width: 361px;
+  }
+
+  .md-bg-origin-border {
+      background-origin: border-box;
+    }
+
+    .md-bg-origin-padding	{
+      background-origin: padding-box;
+    }
+
+    .md-bg-origin-content	{
+      background-origin: content-box;
+    }
+
+    .md-flex-1 {
+      flex: 1 1 0%;
+    }
+    
+    .md-flex {
+      display: flex;
+    }
+
+    .md-justify-center {
+      justify-content: center;
+    }
+
+    .md-text-align {
+      text-align: center;
+    }
+    
+    .md-gap-4 {
+      gap: 1rem;
+    }
+
+    .md-p-4 {
+      padding: 1rem;/* 16px */
+    }
+    
+    .md-pl-px {
+      padding-left: 1px;
+    }
+
+    .md-border-4 {
+      border-width: 4px;
+    }
+}
+/*---------------------------Format-xl------------------------------------*/
+@media (min-width: 1024px) {
+  .xl-img-01-1 {
+      height: 360px;
+      width: 361px;
+  }
+
+  .xl-img-02 {
+      height: 360px;
+      width: 361px;
+  }
+
+  .xl-img-03 {
+      height: 360px;
+      width: 361px;
+  }
+
+  .xl-bg-origin-border {
+      background-origin: border-box;
+    }
+
+    .xl-bg-origin-padding	{
+      background-origin: padding-box;
+    }
+
+    .xl-bg-origin-content	{
+      background-origin: content-box;
+    }
+
+    .xl-flex-1 {
+      flex: 1 1 0%;
+    }
+    
+    .xl-flex {
+      display: flex;
+    }
+
+    .xl-content-center {
+      place-content: space-between;
+    }
+
+    .xl-place-items-center {
+      place-items: center;
+    }
+
+    .xl-text-align {
+      text-align: center;
+    }
+    
+    .xl-gap-4 {
+      gap: 1rem;
+    }
+
+    .xl-place-content-center {
+      place-content: center;
+    }
+
+    .xl-justify-center {
+      justify-content: center;
+    }
+
+    .xl-justify-around {
+      justify-content: space-around;
+    }
+
+    .xl-p-4 {
+      padding: 1rem;/* 16px */
+    }
+
+    .xl-p-60 {
+      padding: 15rem;
+    }
+
+    
+    .xl-pl-px {
+      padding-left: 1px;
+    }
+
+    .xl-ml-80 {
+      margin-left: 22rem;
+    }
+
+    .xl-border-4 {
+      border-width: 4px;
+    }
+
+    .xl-pb-72 {
+      padding-bottom: 18rem;
+    }
+
+    .xl-order-1 {
+      order: 5;
+    }
+
+    .xl-order-last{
+      order: 9999;
+    }
 }
 

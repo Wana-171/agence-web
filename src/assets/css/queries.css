@@ -1,0 +1,172 @@
+/*----Format-sm----*/
+@media (max-width: 425px) {
+    .sm-img-01 {
+        height: 50px;
+        width: 50px;
+    }
+
+    .sm-img-02 {
+        height: 150px;
+        width: 150px;
+    }
+
+    .sm-img-03 {
+        height: 150px;
+        width: 150px;
+    }
+    .sm-bg-origin-border {
+        background-origin: border-box;
+      }
+
+      .sm-bg-origin-padding	{
+        background-origin: padding-box;
+      }
+
+      .sm-bg-origin-content	{
+        background-origin: content-box;
+      }
+
+      .sm-flex-1 {
+        flex: 1 1 0%;
+      }
+      
+      .sm-flex {
+        display: flex;
+      }
+
+      .sm-p-4 {
+        padding: 1rem;/* 16px */
+      }
+      
+      .sm-pl-px {
+        padding-left: 1px;
+      }
+      
+      .sm-border-4 {
+        border-width: 4px;
+      }
+}
+
+/*----Format-md----*/
+@media (min-width: 768px) {
+    .md-img-01-1 {
+        height: 360px;
+        width: 361px;
+    }
+
+    .md-img-02 {
+        height: 360px;
+        width: 361px;
+    }
+
+    .md-img-03 {
+        height: 360px;
+        width: 361px;
+    }
+
+    .md-bg-origin-border {
+        background-origin: border-box;
+      }
+
+      .md-bg-origin-padding	{
+        background-origin: padding-box;
+      }
+
+      .md-bg-origin-content	{
+        background-origin: content-box;
+      }
+
+      .md-flex-1 {
+        flex: 1 1 0%;
+      }
+      
+      .md-flex {
+        display: flex;
+      }
+      
+      .md-grid {
+        display: grid;
+       }
+
+       .md-grid-cols-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      } 
+      
+      .md-gap-4 {
+        gap: 1rem;
+      }
+
+      .md-p-4 {
+        padding: 1rem;/* 16px */
+      }
+      
+      .md-pl-px {
+        padding-left: 1px;
+      }
+
+      .md-border-4 {
+        border-width: 4px;
+      }
+}
+/*----Format-xl----*/
+@media (max-width: 1199px) {
+    .xl-img-01-1 {
+        height: 360px;
+        width: 361px;
+    }
+
+    .xl-img-02 {
+        height: 360px;
+        width: 361px;
+    }
+
+    .xl-img-03 {
+        height: 360px;
+        width: 361px;
+    }
+
+    .xl-bg-origin-border {
+        background-origin: border-box;
+      }
+
+      .xl-bg-origin-padding	{
+        background-origin: padding-box;
+      }
+
+      .xl-bg-origin-content	{
+        background-origin: content-box;
+      }
+
+      .xl-flex-1 {
+        flex: 1 1 0%;
+      }
+      
+      .xl-flex {
+        display: flex;
+      }
+      
+      .xl-grid {
+        display: grid;
+       }
+
+      .xl-grid-cols-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      } 
+      
+      .xl-gap-4 {
+        gap: 1rem;
+      }
+
+      .xl-p-4 {
+        padding: 1rem;/* 16px */
+      }
+      
+      .xl-pl-px {
+        padding-left: 1px;
+      }
+
+      .xl-border-4 {
+        border-width: 4px;
+      }
+}
+

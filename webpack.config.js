@@ -1,5 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   entry: path.resolve(__dirname, "./src/app.js"),
@@ -19,8 +20,22 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "./src/index.html"),
+      template: path.resolve(__dirname, "./src/pages/home/index.html"),
       filename: "index.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, "./src/pages/contact/index.html"),
+      filename: "contact.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, "./src/pages/services/index.html"),
+      filename: "services.html",
+    }),
+    new CopyPlugin({
+      patterns: [
+        { from: "./src/assets/fonts", to: "./assets/fonts" },
+        { from: "./src/assets/img", to: "./assets/img" },
+      ],
     }),
   ],
   module: {
@@ -41,12 +56,12 @@ module.exports = {
         test: /\.m?js$/,
         exclude: /(node_modules|bower_components)/,
         use: {
-          loader: 'babel-loader',
+          loader: "babel-loader",
           options: {
-            presets: ['@babel/preset-env']
-          }
-        }
-      }
+            presets: ["@babel/preset-env"],
+          },
+        },
+      },
     ],
   },
 };
