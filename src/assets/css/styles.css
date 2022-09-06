@@ -24,11 +24,11 @@
   height: 50px;
 }
 .w-1-5 {
-  width: 12%;
+  width: 10%;
 }
 
 .bottom-96 {
-  bottom: 720px;
+  bottom: 79%;
 }
 /* .bg-img-background  {
   background: url(http://localhost:8081/assets/img/casque-rose-rouge.jpg);
@@ -52,12 +52,21 @@
 .h-full {
   height: 2030px;
 }
+.h-80 {
 
-
-.animate-gradient {
-  animation: gradient 15s ease infinite;
+  height: 319px;
 }
-@keyframes gradient {
+
+.bg {
+ background:  linear-gradient(45deg,#f472b6,red);
+  animation: animate 10s ease infinite;
+background-size: 500%;
+}
+
+.animate {
+  animation: animate 15s ease infinite;
+}
+@keyframes animate {
 	0% {
 		background-position: 0% 50%;
 	}
@@ -67,4 +76,19 @@
 	100% {
 		background-position: 0% 50%;
 	}
+}
+
+
+
+@media screen and (max-width:768px) {
+  
+}
+
+@media screen and (max-width:425px) {
+  .min-h-screen {
+    height: 74vh;
+  }
+  .left-40 {
+    left: 10rem;
+  }
 }

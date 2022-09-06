@@ -1,4 +1,4 @@
-import _, { size } from "lodash";
+import _, { size, spread } from "lodash";
 import "./assets/css/styles.css";
 import  "@fortawesome/fontawesome-free/js/all";
 
@@ -24,13 +24,14 @@ import  "@fortawesome/fontawesome-free/js/all";
 // document.body.appendChild(component());
 //darkmode
 let button = document.getElementById("dark-mode");
+console.log(button)
 let body = document.querySelector("body");
 
 function darkMode() {
  body.classList.toggle("bg-black");
- body.classList.toggle("text-white")
+ body.classList.toggle("text-white");
 }
-button.addEventListener("click",darkMode);
+button.addEventListener("click", darkMode);
 
 // function test() {
 //   let name = "warren";
@@ -189,3 +190,9 @@ button.addEventListener("click",darkMode);
 // Console();
 // import * as Test from "./console";
 // Test.Console2();
+
+
+// // operator spread
+//   let array = [1,2,3];
+//   array.push(4);
+//   [...array] = [5];
