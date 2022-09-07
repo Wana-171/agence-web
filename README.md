@@ -57,7 +57,7 @@
 
 - XIV. Faire des git merge pour récuperer les projets des autres
 
-- XV. Les rassembler sur une seul branche "main"
+- XV. Les rassembler sur une seul branche "main" puis supprimer les anciennes branche
 
 - XVI. Tester si le projet fonctionne bien une fois tout rassemblé
 
