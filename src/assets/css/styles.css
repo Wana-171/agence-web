@@ -56,15 +56,20 @@
 
   height: 319px;
 }
-
-.bg {
- background:  linear-gradient(45deg,#f472b6,red);
-  animation: animate 10s ease infinite;
-background-size: 500%;
+.w-11-12 {
+  width: 154%;
 }
 
-.animate {
-  animation: animate 15s ease infinite;
+.bg-gradient {
+ background:  linear-gradient(45deg,#f472b6, #fff, red);
+}
+.bg-cover {
+
+  background-size: 500%;
+}
+
+.animate{
+  animation: animate 5s ease infinite;
 }
 @keyframes animate {
 	0% {

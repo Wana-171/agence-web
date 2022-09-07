@@ -32,7 +32,19 @@ function darkMode() {
  body.classList.toggle("text-white");
 }
 button.addEventListener("click", darkMode);
+//   MUSIQUE
+// let mySong = document.getElementById("mySong");
+// let icon = document.getElementById("icon");
 
+// icon.onclick = function(){
+//     if (mySong.paused) {
+//         mySong.play();
+//         icon.src = "img/pause.png"
+//     } else {
+//         mySong.pause();
+//         icon.src = "img/play.png"
+//     }
+// }
 // function test() {
 //   let name = "warren";
 // };
