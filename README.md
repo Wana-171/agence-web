@@ -89,4 +89,6 @@ PhotoShop pour le logo;
 
 Illustrator Pour l'image qui est en arrière plan du body; 
 
+LinkedIn pour la mise en place de notre entreprise sur les réseaux sociaux;
+
 # Fin du projet 09/09/2022
