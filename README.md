@@ -67,6 +67,8 @@ Figma pour les wireframes, Zoning, Arborescance;
 
 Canva pour le cahier des charges;
 
+? pour le MoodBord;
+
 Discord pour se partager nos idées;
 
 LibreOffice pour la Charte graphique;
