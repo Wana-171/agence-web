@@ -47,7 +47,7 @@
 
 - IX. Organiser un projet sur GitHub et repartir les taches avec le Leader Dev puis les co-fondateurs
 
-- X. Créer les branches de tout le monde plus "main, header, body, footer"
+- X. Créer les branches de chaques personnes dans le groupe plus "main, header, body, footer"
 
 - XI. Repartir les taches pour créer les pages du site via GitHub
 
