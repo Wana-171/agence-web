@@ -29,37 +29,37 @@
 
 # Etape du projet
 
-- 1. Créer l'arborescence
+- I. Créer l'arborescence
 
-- 2. Créer le zoning
+- II. Créer le zoning
 
-- 3. Créer le wireframe
+- III. Créer le wireframe
 
-- 4. Créer le moodbord
+- IV. Créer le moodbord
 
-- 5. Cahier des charges
+- V. Cahier des charges
 
-- 6. Charte graphique
+- VI. Charte graphique
 
-- 7. Créer un LinkedIn pour l'agance
+- VII. Créer un LinkedIn pour l'agance
 
-- 8. Mettre le projet sur GitHub
+- VIII. Mettre le projet sur GitHub
 
-- 9. Organiser un projet sur GitHub et repartir les taches avec le Leader Dev puis les co-fondateurs
+- IX. Organiser un projet sur GitHub et repartir les taches avec le Leader Dev puis les co-fondateurs
 
-- 10. Créer les branches de tout le monde plus "main, header, body, footer"
+- X. Créer les branches de tout le monde plus "main, header, body, footer"
 
-- 11. Repartir les taches pour créer les pages du site via GitHub
+- XI. Repartir les taches pour créer les pages du site via GitHub
 
-- 12. Création des pages du site
+- XII. Création des pages du site
 
-- 13. Tout envoyer sur GitHub 
+- XIII. Tout envoyer sur GitHub 
 
-- 14. Faire des git merge pour récuperer les projets des autres
+- XIV. Faire des git merge pour récuperer les projets des autres
 
-- 15. Les rassembler sur une seul branche "main"
+- XV. Les rassembler sur une seul branche "main"
 
-- 16. Tester si le projet fonctionne bien une fois tout rassemblé
+- XVI. Tester si le projet fonctionne bien une fois tout rassemblé
 
 # Ressource utilisé
 
