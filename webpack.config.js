@@ -14,7 +14,7 @@ module.exports = {
   devtool: "inline-source-map",
   devServer: {
     static: path.resolve(__dirname, "./dist"),
-    port: 3000,
+    port: 8080,
   },
   optimization: {
     runtimeChunk: "single",
@@ -25,11 +25,17 @@ module.exports = {
       filename: "index.html",
     }),
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "./src/assets/pages/contact/index.html"),
+      template: path.resolve(
+        __dirname,
+        "./src/assets/pages/contact/index.html"
+      ),
       filename: "contact.html",
     }),
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "./src/assets/pages/services/services.html"),
+      template: path.resolve(
+        __dirname,
+        "./src/assets/pages/services/services.html"
+      ),
       filename: "services.html",
     }),
     new CopyPlugin({

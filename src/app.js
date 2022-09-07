@@ -24,6 +24,7 @@ const btnDarkMode2 = document.getElementById("btn-dark-mode2");
 const darkMode = () => {
   body.classList.toggle("bg-black");
   body.classList.toggle("text-white");
+  body.classList.toggle("bg-pink-100")
 };
 
 btnDarkMode1.addEventListener("click", darkMode);
