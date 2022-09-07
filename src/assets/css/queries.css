@@ -1,172 +1,235 @@
-/*----Format-sm----*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/*-----------------------------------------Format-tel------------------------------*/
+/*-----------------------------------------Format-sm------------------------------*/
 @media (max-width: 425px) {
-    .sm-img-01 {
-        height: 50px;
-        width: 50px;
+  .sm-img-01 {
+      height: 230px;
+      width: 250px;
+  }
+
+  .sm-img-02 {
+      height: 150px;
+      width: 150px;
+  }
+
+  .sm-img-03 {
+      height: 150px;
+      width: 150px;
+  }
+  .sm-bg-origin-border {
+      background-origin: border-box;
     }
 
-    .sm-img-02 {
-        height: 150px;
-        width: 150px;
+    .sm-bg-origin-padding	{
+      background-origin: padding-box;
     }
 
-    .sm-img-03 {
-        height: 150px;
-        width: 150px;
+    .sm-bg-origin-content	{
+      background-origin: content-box;
     }
-    .sm-bg-origin-border {
-        background-origin: border-box;
-      }
 
-      .sm-bg-origin-padding	{
-        background-origin: padding-box;
-      }
+    .sm-snap-center {
+      scroll-snap-align: center;
+    }
 
-      .sm-bg-origin-content	{
-        background-origin: content-box;
-      }
+    .sm-flex-1 {
+      flex: 1 1 0%;
+    }
+    
+    .sm-flex {
+      display: flex;
+    }
 
-      .sm-flex-1 {
-        flex: 1 1 0%;
-      }
-      
-      .sm-flex {
-        display: flex;
-      }
+    .sm-flex-col {
+      flex-direction: column;
+    }
 
-      .sm-p-4 {
-        padding: 1rem;/* 16px */
-      }
-      
-      .sm-pl-px {
-        padding-left: 1px;
-      }
-      
-      .sm-border-4 {
-        border-width: 4px;
-      }
+    .sm-grid-rows-1 {
+      grid-template-rows: repeat(1, minmax(0, 1fr));
+    }
+
+    .sm-justify-evenly {
+      justify-content: space-evenly;
+    }
+
+    .sm-p-4 {
+      padding: 1rem;/* 16px */
+    }
+    
+    .sm-pl-px {
+      padding-left: 1px;
+    }
+    
+    .sm-border-4 {
+      border-width: 4px;
+    }
 }
 
-/*----Format-md----*/
+/*--------------------------Format-md-----------------------------*/
 @media (min-width: 768px) {
-    .md-img-01-1 {
-        height: 360px;
-        width: 361px;
+  .md-img-01-1 {
+      height: 360px;
+      width: 361px;
+  }
+
+  .md-img-02 {
+      height: 360px;
+      width: 361px;
+  }
+
+  .md-img-03 {
+      height: 360px;
+      width: 361px;
+  }
+
+  .md-bg-origin-border {
+      background-origin: border-box;
     }
 
-    .md-img-02 {
-        height: 360px;
-        width: 361px;
+    .md-bg-origin-padding	{
+      background-origin: padding-box;
     }
 
-    .md-img-03 {
-        height: 360px;
-        width: 361px;
+    .md-bg-origin-content	{
+      background-origin: content-box;
     }
 
-    .md-bg-origin-border {
-        background-origin: border-box;
-      }
+    .md-flex-1 {
+      flex: 1 1 0%;
+    }
+    
+    .md-flex {
+      display: flex;
+    }
 
-      .md-bg-origin-padding	{
-        background-origin: padding-box;
-      }
+    .md-justify-center {
+      justify-content: center;
+    }
 
-      .md-bg-origin-content	{
-        background-origin: content-box;
-      }
+    .md-text-align {
+      text-align: center;
+    }
+    
+    .md-gap-4 {
+      gap: 1rem;
+    }
 
-      .md-flex-1 {
-        flex: 1 1 0%;
-      }
-      
-      .md-flex {
-        display: flex;
-      }
-      
-      .md-grid {
-        display: grid;
-       }
+    .md-p-4 {
+      padding: 1rem;/* 16px */
+    }
+    
+    .md-pl-px {
+      padding-left: 1px;
+    }
 
-       .md-grid-cols-3 {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-      } 
-      
-      .md-gap-4 {
-        gap: 1rem;
-      }
+    .md-border-4 {
+      border-width: 4px;
+    }
 
-      .md-p-4 {
-        padding: 1rem;/* 16px */
-      }
-      
-      .md-pl-px {
-        padding-left: 1px;
-      }
-
-      .md-border-4 {
-        border-width: 4px;
-      }
+    .md-text-align {
+      text-align: center;
+    }
 }
-/*----Format-xl----*/
-@media (max-width: 1199px) {
-    .xl-img-01-1 {
-        height: 360px;
-        width: 361px;
+/*---------------------------Format-xl------------------------------------*/
+@media (min-width: 1024px) {
+  .xl-img-01-1 {
+      height: 360px;
+      width: 361px;
+  }
+
+  .xl-img-02 {
+      height: 360px;
+      width: 361px;
+  }
+
+  .xl-img-03 {
+      height: 360px;
+      width: 361px;
+  }
+
+  .xl-bg-origin-border {
+      background-origin: border-box;
     }
 
-    .xl-img-02 {
-        height: 360px;
-        width: 361px;
+    .xl-bg-origin-padding	{
+      background-origin: padding-box;
     }
 
-    .xl-img-03 {
-        height: 360px;
-        width: 361px;
+    .xl-bg-origin-content	{
+      background-origin: content-box;
     }
 
-    .xl-bg-origin-border {
-        background-origin: border-box;
-      }
+    .xl-flex-1 {
+      flex: 1 1 0%;
+    }
+    
+    .xl-flex {
+      display: flex;
+    }
 
-      .xl-bg-origin-padding	{
-        background-origin: padding-box;
-      }
+    .xl-content-center {
+      place-content: space-between;
+    }
 
-      .xl-bg-origin-content	{
-        background-origin: content-box;
-      }
+    .xl-place-items-center {
+      place-items: center;
+    }
 
-      .xl-flex-1 {
-        flex: 1 1 0%;
-      }
-      
-      .xl-flex {
-        display: flex;
-      }
-      
-      .xl-grid {
-        display: grid;
-       }
+    .xl-text-align {
+      text-align: center;
+    }
+    
+    .xl-gap-4 {
+      gap: 1rem;
+    }
 
-      .xl-grid-cols-3 {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-      } 
-      
-      .xl-gap-4 {
-        gap: 1rem;
-      }
+    .xl-place-content-center {
+      place-content: center;
+    }
 
-      .xl-p-4 {
-        padding: 1rem;/* 16px */
-      }
-      
-      .xl-pl-px {
-        padding-left: 1px;
-      }
+    .xl-justify-center {
+      justify-content: center;
+    }
 
-      .xl-border-4 {
-        border-width: 4px;
-      }
+    .xl-justify-around {
+      justify-content: space-around;
+    }
+
+    .xl-p-4 {
+      padding: 1rem;/* 16px */
+    }
+
+    .xl-p-60 {
+      padding: 15rem;
+    }
+
+    
+    .xl-pl-px {
+      padding-left: 1px;
+    }
+
+    .xl-ml-80 {
+      margin-left: 22rem;
+    }
+
+    .xl-border-4 {
+      border-width: 4px;
+    }
+
+    .xl-pb-72 {
+      padding-bottom: 18rem;
+    }
+
+    .xl-order-1 {
+      order: 5;
+    }
+
+    .xl-order-last{
+      order: 9999;
+    }
 }
 

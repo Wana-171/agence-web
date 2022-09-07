@@ -207,6 +207,10 @@
     .md-border-4 {
       border-width: 4px;
     }
+
+    .md-text-align {
+      text-align: center;
+    }
 }
 /*---------------------------Format-xl------------------------------------*/
 @media (min-width: 1024px) {
