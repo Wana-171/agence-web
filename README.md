@@ -29,11 +29,11 @@
 
 # Etape du projet
 
-- 1. Créer l'arborescence
+- I. Créer l'arborescence
 
-- 2. Créer le zoning
+- II. Créer le zoning
 
-- 3. Créer le wireframe
+- III. Créer le wireframe
 
 - IV. Créer le moodbord
 
