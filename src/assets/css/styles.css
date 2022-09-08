@@ -20,7 +20,7 @@ body {
   font-family: "Roboto";
 }
 
-/* <<<<<<< HEAD */
+
 .bg-white {
   background-color: white;
 
@@ -28,21 +28,14 @@ body {
 .text-black {
   color: black;
 }
-
-.absolute {
-  position: absolute;
-}
-
+/* .bg-img-background {
+  background-image: url(../img/fond-vaste.png);
+} */
 .z-10 {
   z-index: -1;
 }
-/* 
-.z-10 {
-  z-index: 1;
-} */
-.absolute {
-  position: absolute;
-}
+
+
 .h-10 {
   height: 50px;
 }
@@ -53,9 +46,6 @@ body {
 .bottom-96 {
   bottom: 79%;
 }
-/* .bg-img-background  {
-  background: url(http://localhost:8081/assets/img/casque-rose-rouge.jpg);
-} */
 
 .bg-size {
   background-size: cover;
@@ -64,19 +54,11 @@ body {
 .h-96 {
   height: 100vh;
 }
-.text-center {
-  text-align: center;
-}
-
-.object-cover {
-  object-fit: cover;
-}
 
 .h-full {
   height: 2030px;
 }
 .h-80 {
-
   height: 319px;
 }
 .w-11-12 {
@@ -86,7 +68,6 @@ body {
 .bg-gradient {
  background:  linear-gradient(45deg,#f472b6, pink, red);
 }
-
 
 .bg-cover {
 
@@ -106,22 +87,7 @@ body {
 	100% {
 		background-position: 0% 50%;
 	}
-/* >>>>>>> leadDev-warren */
-}
-
-
-
-
-@media screen and (max-width:768px) {
-  
-}
-
-@media screen and (max-width:425px) {
-  .min-h-screen {
-    height: 74vh;
-  }
-  .left-40 {
-    left: 10rem;
-  }
 }
 /* >>>>>>> leadDev-warren */
+
+
