@@ -6,10 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "run-p start:**",
-    "start:watch": "webpack --watch",
-    "start": "webpack serve --open --config webpack.dev.js",
+    "start:serve": "webpack serve --open --config webpack.dev.js",
     "start:tailwind": "tailwindcss -i ./src/assets/css/styles.css -o ./dist/output.css --watch",
-    "build": "webpack --config webpack.prod.js"
+    "build": "run-s build:**",
+    "build:serve": "webpack --config webpack.prod.js",
+    "build:tailwind": "tailwindcss -i ./src/assets/css/styles.css -o ./dist/output.css"
+
 
   },
   "keywords": [],

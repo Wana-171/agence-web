@@ -1,36 +1,14 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
-const path = require('path');
- const HtmlWebpackPlugin = require('html-webpack-plugin');
 
- module.exports = {
-   entry: {
-     app: './src/index.js',
-   },
-   plugins: [
-     new HtmlWebpackPlugin({
-       title: 'Production',
-     }),
-   ],
-   output: {
-     filename: '[name].bundle.js',
-     path: path.resolve(__dirname, 'dist'),
-     clean: true,
-   },
- };
+
 module.exports = {
   entry: path.resolve(__dirname, "./src/app.js"),
-  mode: "development",
   output: {
     filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist"),
-    publicPath: "/assets/",
     clean: true,
-  },
-  devtool: "inline-source-map",
-  devServer: {
-    static: path.resolve(__dirname, "./dist"),
   },
   optimization: {
     runtimeChunk: "single",
@@ -48,14 +26,12 @@ module.exports = {
       template: path.resolve(__dirname, "./src/pages/services/index.html"),
       filename: "services.html",
     }),
-  
   new CopyPlugin({
     patterns: [
       { from: "./src/assets/img/", to: "img" },
     ],
     }),
   ],
-
   module: {
     rules: [
       {
