@@ -2,7 +2,6 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
 
-
 module.exports = {
   entry: path.resolve(__dirname, "./src/app.js"),
   output: {
@@ -28,11 +27,12 @@ module.exports = {
     }),
   new CopyPlugin({
     patterns: [
-      { from: "./src/assets/img/", to: "img" },
+      { from: "./src/assets/img/", to: "assets/img" },
+      { from: "./src/assets/fonts", to: "assets/fonts" },
+      { from: "./src/assets/css", to: "assets/css" },
     ],
     }),
   ],
-
   module: {
     rules: [
       {
