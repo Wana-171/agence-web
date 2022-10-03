@@ -74,9 +74,9 @@ body {
   background-size: 500%;
 }
 
-.animate{
+/* .animate{
   animation: animate 5s ease infinite;
-}
+} */
 @keyframes animate {
 	0% {
 		background-position: 0% 50%;
