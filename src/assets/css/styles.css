@@ -91,3 +91,14 @@ body {
 /* >>>>>>> leadDev-warren */
 
 
+.bg-background {
+  background-image: url(../img/digitization-g773964680_1920.png);
+}
+
+.bg-background-agency {
+background-image: url(../img/bg-agency3.png);
+}
+
+.bg-background-agency2 {
+  background-image: url(../img/main3.png);
+}
