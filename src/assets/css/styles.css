@@ -25,6 +25,9 @@ body {
   background-color: white;
 
 }
+.bg-black {
+  background-color: black;
+}
 .text-black {
   color: black;
 }
@@ -101,4 +104,8 @@ background-image: url(../img/bg-agency3.png);
 
 .bg-background-agency2 {
   background-image: url(../img/main3.png);
+}
+
+.bg-background-agency3 {
+  background-image:url(../img/hhhorizon\ \(3\).svg);
 }
