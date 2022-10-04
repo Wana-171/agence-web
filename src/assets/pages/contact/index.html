@@ -10,8 +10,8 @@
   <body class="bg-pink-100">
     <!-- nav mod desktop -->
 
-    <header class="hidden lg:block">
-      <div class="grid grid-cols-8 bg-pink-200">
+    <header id="shadow-light1" class="hidden lg:block shadow-xl shadow-black">
+      <div class="grid grid-cols-8 drop-shadow">
         <div class="flex justify-center">
           <a href="http://localhost:8080/">
             <img
@@ -64,7 +64,7 @@
 
     <!-- mod tablet & mobile -->
 
-    <header class="lg:hidden">
+    <header id="mobile-shadow-light1" class="lg:hidden shadow-xl shadow-black">
       <div class="grid grid-cols-3">
         <!-- btn menu burger -->
         <div class="flex items-center pl-6">
@@ -91,9 +91,9 @@
 
         <!-- menu burger -->
       </div>
-      <div>
+      <div id="dark-burger" class="bg-pink-100">
         <nav
-          class="bg-pink-200 h-60 text-center flex justify-center items-center text-2xl hidden"
+          class="h-60 text-center flex justify-center items-center text-2xl hidden"
           id="menu-home-nav"
         >
           <ul>
@@ -129,31 +129,36 @@
       </div>
     </header>
     <!-- header done -->
+
     <!-- qui nous sommes -->
-    <main>
-      <div class="grid grid-cols-1 py-6">
+
+    <main id="shadow-light2" class="shadow-xl shadow-black">
+      <div class="grid grid-cols-1 py-24">
         <h1 class="text-center text-3xl pb-10">
           Présentation de l'equipe Wana
         </h1>
         <div class="grid grid-rows lg:grid-cols-3">
-          <div class="flex flex-col items-center">
+          <div
+            class="flex flex-col items-center pt-8 mx-8 my-4 lg:m-0 lg:ml-2 shadow-xl shadow-black shadow-light-all"
+          >
             <h1 class="text-2xl font-bold">Warren</h1>
             <img
-              class="rounded-full pt-6"
+              class="rounded-full py-6"
               src="../../img/bitmoji-warren.png"
               width="250px"
               height="auto"
               alt="bitmoji-warren"
             />
-            <p class="py-6 px-20 text-center">
-              Lead développeur, fondateur et PDG Wana Agency, est l'essence même
-              de l'entreprise.
+            <p class="pb-8 px-20 text-center lg:text-xl">
+              Lead développeur, fondateur et PDG Wana Agency.
               <br />
               <span class="font-bold">En gros c'est le patron !</span>
             </p>
           </div>
 
-          <div class="flex flex-col items-center">
+          <div
+            class="flex flex-col items-center pt-8 mx-8 my-4 lg:m-0 lg:mx-2 shadow-xl shadow-black shadow-light-all"
+          >
             <h1 class="text-2xl font-bold">Norman</h1>
             <img
               class="py-6"
@@ -162,14 +167,16 @@
               height="auto"
               alt="bitmoji-norman"
             />
-            <p class="pb-6 px-20 text-center">
+            <p class="pb-8 px-20 text-center lg:text-xl">
               Web développeur, co-fondateur de Wana Agency. <br /><span
                 class="font-bold"
                 >Avec nous votre site est assurée.
               </span>
             </p>
           </div>
-          <div class="flex flex-col items-center">
+          <div
+            class="flex flex-col items-center pt-8 mx-8 my-4 lg:m-0 lg:mr-4 shadow-xl shadow-black shadow-light-all"
+          >
             <h1 class="text-2xl font-bold">Axel</h1>
             <img
               class="py-6"
@@ -178,7 +185,7 @@
               height="auto"
               alt="bitmoji-axel"
             />
-            <p class="px-20 text-center">
+            <p class="px-20 text-center pb-8 lg:text-xl">
               Web développeur, co-fondateur de Wana Agency. <br /><span
                 class="font-bold"
                 >Toujour prêt à travailler.</span
@@ -190,9 +197,9 @@
 
       <!-- contacter nous -->
       <h1 class="text-center text-3xl">Nos moyens de contact</h1>
-      <div class="grid grid-cols-8 pt-10">
+      <div class="grid grid-cols-8 py-24">
         <div
-          class="col-start-2 col-span-2 text-center bg-red-200 rounded-xl hover:bg-pink-200 ease-in duration-500 flex flex-col justify-center"
+          class="col-start-2 col-span-2 text-center bg-red-200 rounded-xl hover:bg-pink-200 ease-in duration-500 flex flex-col justify-center remove-box-pink shadow-xl shadow-black shadow-light-all"
         >
           <i class="fa-solid fa-phone text-4xl"></i>
           <p class="font-bold text-xl">Appellez-nous :</p>
@@ -200,15 +207,15 @@
         </div>
 
         <div
-          class="col-start-6 col-span-2 text-center bg-red-200 rounded-xl hover:bg-pink-200 ease-in duration-500 h-40 flex flex-col justify-center"
+          class="col-start-6 col-span-2 text-center bg-red-200 rounded-xl hover:bg-pink-200 ease-in duration-500 h-40 flex flex-col justify-center remove-box-pink shadow-xl shadow-black shadow-light-all"
         >
-          <i class="fa-regular fa-envelope text-4xl"> </i>
+          <i class="fa-regular fa-envelope text-5xl"> </i>
           <p class="font-bold text-xl">Adresse Email :</p>
           <p class="text-sm">agencywana <br />@gmail.com</p>
         </div>
 
         <div
-          class="mt-10 col-start-2 col-span-2 text-center h-40 flex flex-col justify-center bg-red-200 rounded-xl hover:bg-pink-200 ease-in duration-500"
+          class="mt-24 col-start-2 col-span-2 text-center h-40 flex flex-col justify-center bg-red-200 rounded-xl hover:bg-pink-200 ease-in duration-500 remove-box-pink shadow-xl shadow-black shadow-light-all"
         >
           <a
             href="https://www.linkedin.com/in/wana-agency-70a58424b/"
@@ -220,7 +227,7 @@
         </div>
 
         <div
-          class="text-center col-start-6 col-span-2 mt-10 h-40 flex flex-col justify-center bg-red-200 rounded-xl hover:bg-pink-200 ease-in duration-500 md:col-start-6"
+          class="text-center col-start-6 col-span-2 mt-24 h-40 flex flex-col justify-center bg-red-200 rounded-xl hover:bg-pink-200 ease-in duration-500 md:col-start-6 remove-box-pink shadow-xl shadow-black shadow-light-all"
         >
           <i class="fa-solid fa-map-location text-4xl"></i>
           <p class="font-bold text-xl">Notre adresse</p>
@@ -231,13 +238,13 @@
     </main>
 
     <!-- footer -->
-    <footer class="bg-pink-200 mt-10">
-      <div class="md:hidden">
-        <div class="grid grid-rows-3">
-          <div class="flex justify-center items-center">
+    <footer class="mt-10">
+      <div id="footer-mobile" class="md:hidden">
+        <div class="grid grid-rows-2">
+          <div class="flex justify-center items-center pb-10">
             <nav>
               <ul>
-                <h1 class="text-xl font-bold py-4">Nous découvrir</h1>
+                <h1 class="text-xl font-bold py-4 pt-20">Nous découvrir</h1>
 
                 <li class="pb-2 hover:border-b-4 hover:border-b-black">
                   <a href="#">Qui somme nous</a>
@@ -255,27 +262,6 @@
             </nav>
           </div>
           <!-- nav 2 -->
-
-          <div class="flex items-center justify-center">
-            <nav class="list-none">
-              <ul>
-                <h1 class="font-bold text-xl py-4">Coin musique</h1>
-
-                <li class="pb-2 hover:border-b-4 hover:border-b-black">
-                  <a href="#"> Streaming à la demande</a>
-                </li>
-                <li class="pb-2 hover:border-b-4 hover:border-b-black">
-                  <a href="#">Téléchargement musique</a>
-                </li>
-                <li class="pb-2 hover:border-b-4 hover:border-b-black">
-                  <a href="#">Top musique</a>
-                </li>
-                <li class="pb-2 hover:border-b-4 hover:border-b-black">
-                  <a href="#">Partenariat</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
 
           <!-- nav 3 -->
 
@@ -307,23 +293,18 @@
           >
             Télécharger notre application
           </h1>
-          <div class="flex justify-center items-center">
-            <button class="border-4 border-black w-28 h-28 hover:text-white">
+          <div class="flex justify-center items-center col-span-2">
+            <button class="w-28 h-28 hover:text-white">
               <i class="text-5xl fa-brands fa-android"></i>
-              <span class="flex justify-center text-xl">Play-Store</span>
             </button>
-          </div>
-
-          <div class="flex justify-center items-center">
-            <button class="border-4 border-black w-28 h-28 hover:text-white">
+            <button class="w-28 h-28 hover:text-white">
               <i class="text-6xl fa-brands fa-apple"></i>
-              <span class="flex justify-center text-xl"> IOS-Store </span>
             </button>
           </div>
         </div>
 
         <!-- logo -->
-        <div class="grid grid-cols-2">
+        <div class="grid grid-cols-2 pt-8">
           <div class="flex justify-center items-center py-10">
             <a href="http://localhost:8080/">
               <img
@@ -360,8 +341,8 @@
     <!-- ********** Tablet & Desktop ******** -->
     <!-- logo  -->
 
-    <footer class="h-80 w-full bg-pink-200 hidden md:block lg:block">
-      <div class="grid grid-cols-5">
+    <footer class="w-full hidden md:block lg:block">
+      <div class="grid grid-cols-4">
         <div class="grid grid-rows-1 md:mx-4">
           <div class="flex justify-center items-center md:py-4">
             <a href="http://localhost:8080/">
@@ -373,28 +354,11 @@
             </a>
           </div>
 
-          <!--********** SOCIAL LINK ********** -->
-          <div class="text-5xl text-center pb-10">
-            <div>
-              <a href="#"
-                ><i class="fa-brands fa-linkedin hover:text-white"></i
-              ></a>
-              <a href="https://github.com/Wana-171"
-                ><i class="fa-brands fa-square-github hover:text-white"></i
-              ></a>
-            </div>
-            <a href="#"
-              ><i class="fa-brands fa-square-instagram hover:text-white"></i
-            ></a>
-            <a href="#"
-              ><i class="fa-brands fa-square-twitter hover:text-white"></i
-            ></a>
-          </div>
           <h1><i class="fa-regular fa-copyright"></i>Wana Agency</h1>
         </div>
 
         <!-- navbar footer 1 -->
-        <div class="flex items-center">
+        <div class="flex items-center justify-center">
           <nav>
             <ul>
               <h1 class="text-xl font-bold pb-4">Nous découvrir</h1>
@@ -415,30 +379,8 @@
           </nav>
         </div>
 
-        <!-- navbar footer 2 -->
-        <div class="flex items-center">
-          <nav class="list-none">
-            <ul>
-              <h1 class="font-bold text-xl pb-4">Coin musique</h1>
-
-              <li class="pb-2 hover:border-b-4 hover:border-b-black">
-                <a href="#"> Streaming à la demande</a>
-              </li>
-              <li class="pb-2 hover:border-b-4 hover:border-b-black">
-                <a href="#">Téléchargement musique</a>
-              </li>
-              <li class="pb-2 hover:border-b-4 hover:border-b-black">
-                <a href="#">Top musique</a>
-              </li>
-              <li class="pb-2 hover:border-b-4 hover:border-b-black">
-                <a href="#">Partenariat</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-
         <!-- navbar footer 3 -->
-        <div class="flex items-center">
+        <div class="flex items-center justify-center">
           <nav>
             <ul>
               <h1 class="text-xl font-bold pb-4">Politique RGPD</h1>
@@ -458,23 +400,40 @@
           </nav>
         </div>
         <!-- API APPLICATION -->
-        <div class="grid grid-cols-2">
+
+        <div class="flex flex-col h-96 justify-center">
+          <!--********** SOCIAL LINK ********** -->
+          <h1 class="text-xl font-bold text-center">Social link</h1>
+          <div class="text-5xl text-center">
+            <div class="flex flex-row justify-center py-8">
+              <a href="#"
+                ><i class="fa-brands fa-linkedin hover:text-white"></i
+              ></a>
+              <a href="https://github.com/Wana-171"
+                ><i class="fa-brands fa-square-github hover:text-white px-4"></i
+              ></a>
+              <a href="#"
+                ><i
+                  class="fa-brands fa-square-instagram hover:text-white pr-4"
+                ></i
+              ></a>
+              <a href="#"
+                ><i class="fa-brands fa-square-twitter hover:text-white"></i
+              ></a>
+            </div>
+          </div>
+
           <h1
-            class="col-span-2 flex justify-center items-end text-xl font-bold md:pl-6"
+            class="col-span-2 flex justify-center text-center text-xl font-bold md:pl-6"
           >
             Télécharger notre application
           </h1>
-          <div class="flex justify-center items-center px-2">
-            <button class="border-2 border-black w-28 h-28 hover:text-white">
+          <div class="flex flex-row justify-center items-center px-2">
+            <button class="w-28 h-28 hover:text-white">
               <i class="text-5xl fa-brands fa-android"></i>
-              <span class="flex justify-center text-sm">Play-Store</span>
             </button>
-          </div>
-
-          <div class="flex justify-center items-center px-2">
-            <button class="border-2 border-black w-28 h-28 hover:text-white">
+            <button class="w-28 h-28 hover:text-white">
               <i class="text-6xl fa-brands fa-apple"></i>
-              <span class="flex justify-center text-sm"> IOS-Store </span>
             </button>
           </div>
         </div>

@@ -1,3 +1,4 @@
+
 // ************* For homepage header *****************
 // ********* menu burger for tablet & mobile *********
 
@@ -10,4 +11,4 @@ const ShowHomeMenu = () => {
 
 btnHomeBurger.addEventListener("click", ShowHomeMenu);
 
-export default ShowHomeMenu;
+export default ShowHomeMenu
