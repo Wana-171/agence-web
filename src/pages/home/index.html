@@ -12,25 +12,28 @@
   <link rel="shortcut icon" href="../../assets/img/favicon.ico" type="image/x-icon">
   
 </head>
-<body class=" h-screen bg-pink-100">
+<body class=" h-screen  bg-gradient-to-r from-red-400 to-pink-200">
 
-  <header class="hidden lg:block shadow-xl shadow-black bg-pink-100">
+  <header class="hidden lg:block shadow-xl shadow-black  bg-gradient-to-r from-pink-200 to-red-400">
     <div class="grid grid-cols-8 ">
       <div class="flex justify-center">
         <a href="https://main--wana-agency.netlify.app">
           <img
             class="py-4"
-            src="./assets/img/logo-wana-agency-web-rougeblanc.jpg"
+            src="../../assets/img/logo-no-background.svg"
             width="120px"
             height="auto"
             alt=""
         /></a>
       </div>
-      <button type="button" id="btn-dark-mode1">
-        <i class="fa-solid fa-moon text-6xl"></i>
-      </button>
+      <div class="flex col-span-2 justify-center items-center">
 
-      <div class="col-span-6 flex justify-center items-center">
+        <button type="button" id="btn-dark-mode1">
+        <img src="../../assets/img/soleil.png" alt="" width="90px" >
+        </button>
+      </div>
+
+      <div class="col-span-4 flex justify-center items-center">
         <nav class="text-3xl">
           <ul class="flex">
             <li>
@@ -68,7 +71,7 @@
 
   <!-- mod tablet & mobile -->
 
-  <header class="lg:hidden">
+  <header class="lg:hidden  bg-gradient-to-r from-pink-200 to-red-400">
     <div class="grid grid-cols-3 ">
       <!-- btn menu burger -->
       <div class="flex items-center pl-6">
@@ -136,7 +139,7 @@
     </div>
   </header>
   <!-- branche warren -->
-  <main class="w-full h-screen flex flex-col justify-center items-center bg-background-agency3 bg-cover ">
+  <main class="w-full h-screen flex flex-col justify-center items-center  ">
     <!-- <div class="">  -->
       <!-- <img src="./assets/img/fond-vaste.png" height="auto" class="object-cover   min-h-screen">
       <div class="absolute top-96  ml-1 w-2/4   p-1 text-white"> -->
@@ -146,7 +149,7 @@
         </h1>
         <br>
         <br>
-        <p class="text-center text-3xl border-4 border-pink-200 p-5">
+        <p class="text-center text-3xl border-y-2 border-red-400 p-5">
             Sur notre site nous vous proposons plusieurs service pour réaliser votre site  <br> de vos rêve notre agence a une expertise vaste dans le domaine du développement web .
         </p>
     <!-- <div class="">
@@ -182,12 +185,14 @@
     </div>
   </main>
 </div>
-<hr>
-<div  data-aos="zoom-in" class="text-center flex flex-col justify-center xl:grid xl:grid-cols-3    " >
+<h1 class="text-center text-6xl uppercase border-y-2 border-red-400 p-8">
+  Nos idéaux
+    </h1>
+<div  data-aos="zoom-in" class="text-center flex flex-col justify-center xl:grid xl:grid-cols-3  pb-20  " >
   <div class=" flex justify-center">
 
     <div   class=" shadow-2xl  shadow-black mt-5 h-auto bg-pink-200 w-96 ">
-      <h1 class="uppercase text-center text-2xl p-4 border-2 border-purple-900">Notre vision</h1>
+      <h1 class="uppercase text-center text-2xl p-4 border-2 border-red-500">Notre vision</h1>
       <p class="mt-1 p-10">
         Dans notre agence nous devons être connecté  constamment pour répondre a vos éxigence , avoir une meilleure expérience utilisateur possible et une excelente.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque distinctio maiores velit nisi quod perferendis. Facilis, autem doloremque porro quidem consectetur fugiat nemo, a quaerat veritatis aperiam.  
       </p>
@@ -205,7 +210,7 @@
     <div class="shadow-xl shadow-black  w-96   bg-pink-200 mt-5  ">
       
       
-      <h1 class=" uppercase text-center text-2xl p-4 border-2 border-purple-900">NOTRE PROMESSE</h1>
+      <h1 class=" uppercase text-center text-2xl p-4 border-2 border-red-500">NOTRE PROMESSE</h1>
       
       <p class="pt-4 p-7">
         Vitesse,connectivité,esthétique,expérience,  <br> son nos  éléments clé pour prendre en une considération 
@@ -227,7 +232,7 @@
 
   <div class="shadow-xl shadow-black  w-96   bg-pink-200 mt-5 ">
     
-    <h1 class=" uppercase text-center text-2xl p-4 border-2 border-purple-900 ">Notre approche</h1>
+    <h1 class=" uppercase text-center text-2xl p-4 border-2 border-red-500 ">Notre approche</h1>
     
     <p class="pt-4 p-16">
       On met un point d'honeur sur la qualité que  a la quantité chaque projet que nous feront  seront unique car vous êtaient unique. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa est in, adipisci reiciendis dolor dignissimos debitis obcaecati assumenda hic officiis praesentium mollitia magnam dolorem placeat voluptates, aliquam laudantium
@@ -262,44 +267,53 @@
   </div> -->
 </div>
 
-<div  data-aos="zoom-in" class=" bg-pink-100 shadow-xl shadow-black pb-8">
+<div  data-aos="zoom-in" class="">
   
-  <h1 class="text-5xl text-center mt-10   border-4 border-pink-200  p-2 ">
+  <h1 class="text-5xl text-center mt-10   border-y-2 border-red-400  p-2 uppercase py-8">
     Nos technologies
     
   </h1>
-  <div class=" grid grid-cols-4 pt-8">
+  <div class=" grid md:grid-cols-4 pt-12 ">
     <div class="flex flex-col items-center  ">
-      <h1 class="font-bold uppercase">Langage</h1>
+      <h1 class="font-bold uppercase text-2xl border-b-2 border-black">Langage</h1>
       
-      <img src="../../assets/img/html-svgrepo-com.svg" alt="" width="10%"  class="mt-5"> 
-      <img src="../../assets/img/css-3-svgrepo-com.svg" alt="" width="10%"  class="mt-5"> 
-      <img src="../../assets/img/js-svgrepo-com.svg" alt="" width="10%"  class="mt-5">
-      <img src="../../assets/img/php-1-logo-svgrepo-com.svg" alt="" width="10%"  class="mt-5"> 
-      <img src="../../assets/img/mysql-logo-svgrepo-com.svg" alt="" width="17%"  class="mt-5"> 
-    </div>
-    <div class="flex flex-col items-center">
-      <h1 class="font-bold uppercase">design</h1>
-      <img src="../../assets/img/adobe-illustrator-cc-logo-svgrepo-com.svg" alt="" width="10% "  class="mt-5">
-      <img src="../../assets/img/photoshop-cc-logo-svgrepo-com.svg" alt="" width="10% "  class="mt-5">
-      <img src="../../assets/img/figma-svgrepo-com.svg" alt="" width="10% " class="mt-5">
-    </div>
-    <div class="flex flex-col items-center">
-      <h1 class="font-bold uppercase">outils</h1>
-      <img src="../../assets/img/netlify-svgrepo-com.svg" alt="" width="10%"  class="mt-5">
-      <img src="../../assets/img/wordpress-svgrepo-com.svg" alt="" width="10%"  class="mt-5">
-      <img src="../../assets/img/github-svgrepo-com.svg" alt="" width="10%"  class="mt-5">
-      <img src="../../assets/img/git-svgrepo-com (1).svg" alt="" width="10%"  class="mt-5">
-    </div>
+      <img src="../../assets/img/html-svgrepo-com.svg" alt="" width="25%"  class="mt-5"> 
+      <img src="../../assets/img/css-3-svgrepo-com.svg" alt="" width="25%"  class="mt-5"> 
+      <img src="../../assets/img/js-svgrepo-com.svg" alt="" width="25%"  class="mt-5">
+      <img src="../../assets/img/php-1-logo-svgrepo-com.svg" alt="" width="25%"  class="mt-5"> 
+      <img src="../../assets/img/mysql-logo-svgrepo-com.svg" alt="" width="25%"  class="mt-5"> 
+      <div class="border-b-2 border-black md:hidden w-full my-8">
     
+      </div>
+    </div>
+    <div class="flex flex-col items-center  ">
+      <h1 class="font-bold uppercase text-2xl border-b-2 border-black">design</h1>
+      <img src="../../assets/img/adobe-illustrator-cc-logo-svgrepo-com.svg" alt="" width="25% "  class="mt-5">
+      <img src="../../assets/img/photoshop-cc-logo-svgrepo-com.svg" alt="" width="25% "  class="mt-5">
+      <img src="../../assets/img/figma-svgrepo-com.svg" alt="" width="25% " class="mt-5">
+      <img src="../../assets/img/canva-svgrepo-com.svg" alt="" width="25% " class="mt-5">
+      <div class="border-b-2 border-black md:hidden w-full my-8 ">
+      
+      </div>
+    </div>
+    <div class="flex flex-col items-center ">
+      <h1 class="font-bold uppercase  text-2xl border-b-2 border-black">outils</h1>
+      <img src="../../assets/img/netlify-svgrepo-com.svg" alt="" width="25%"  class="mt-5">
+      <img src="../../assets/img/wordpress-svgrepo-com.svg" alt="" width="25%"  class="mt-5">
+      <img src="../../assets/img/github-svgrepo-com.svg" alt="" width="25%"  class="mt-5">
+      <img src="../../assets/img/git-svgrepo-com (1).svg" alt="" width="25%"  class="mt-5">
+      <div class="border-b-2 border-black md:hidden w-full my-8">
+     
+     </div>
+    </div>
     <div class="flex flex-col items-center">
-      <h1 class="font-bold uppercase">framework</h1>
-      <img src="../../assets/img/symfony-svgrepo-com.svg" alt="" width="10%"  class="mt-5">
-      <img src="../../assets/img/tailwindcss-icon-svgrepo-com.svg" alt="" width="10% "  class="mt-5">
-      <img src="../../assets/img/nextjs-svgrepo-com.svg" alt="" width="10%" class="mt-5">
-      <img  src="../../assets/img/nodejs-1-logo-svgrepo-com.svg" alt="" width="10% " height="auto"  class="mt-5 ">
-      <img src="../../assets/img/reactjs-svgrepo-com.svg" alt="" width="10%"  class="mt-5">
-      <img src="../../assets/img/json-svgrepo-com.svg" alt="" width="10%"  class="mt-5">
+      <h1 class="font-bold uppercase text-2xl border-b-2 border-black">framework</h1>
+      <img src="../../assets/img/symfony-svgrepo-com.svg" alt="" width="25%"  class="mt-5">
+      <img src="../../assets/img/tailwindcss-icon-svgrepo-com.svg" alt="" width="25% "  class="mt-5">
+      <img src="../../assets/img/nextjs-svgrepo-com.svg" alt="" width="25%" class="mt-5">
+      <img  src="../../assets/img/nodejs-1-logo-svgrepo-com.svg" alt="" width="25% " height="auto"  class="mt-5 ">
+      <img src="../../assets/img/reactjs-svgrepo-com.svg" alt="" width="25%"  class="mt-5">
+      <img src="../../assets/img/json-svgrepo-com.svg" alt="" width="25%"  class="mt-5 p-8">
     </div>
     
 
@@ -308,7 +322,7 @@
     
   </div>
    <!-- footer -->
-   <footer class="mt-10">
+   <footer class="mt-10  bg-gradient-to-r from-pink-200 to-red-400">
     <div id="footer-mobile" class="md:hidden">
       <div class="grid grid-rows-2">
         <div class="flex justify-center items-center pb-10">
@@ -366,11 +380,11 @@
         <div class="flex justify-center items-center col-span-2">
           <div class="flex justify-center">
             
-            <button class="w-28 h-28 hover:text-red-400">
+            <button class="w-28  hover:text-red-400">
               <img src="../../assets/img/icons8-android-os.svg" alt="" >
             </button>
             </div>
-          <button class="w-28 h-28 hover:text-red-400">
+          <button class="w-28  hover:text-red-400">
             <i class="text-6xl fa-brands fa-apple"></i>
           </button>
         </div>
@@ -414,13 +428,13 @@
   <!-- ********** Tablet & Desktop ******** -->
   <!-- logo  -->
 
-  <footer class="w-full hidden md:block lg:block">
+  <footer class="w-full hidden md:block lg:block  bg-gradient-to-r from-pink-200 to-red-400 pt-8">
     <div class="grid grid-cols-4">
       <div class="grid grid-rows-1 md:mx-4">
         <div class="flex justify-center items-center md:py-4">
           <a href="http://localhost:8080/">
             <img
-              src="./assets/img/logo-wana-agency-web-rougeblanc.jpg"
+              src="../../assets/img/logo-no-background.svg"
               width="150px"
               alt="logo-agency"
             />

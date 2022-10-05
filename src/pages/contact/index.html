@@ -4,30 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>CONTACT</title>
     <link href="../../assets/css/output.css" rel="stylesheet" />
   </head>
   <body class="bg-pink-100">
     <!-- nav mod desktop -->
 
-    <header id="shadow-light1" class="hidden lg:block shadow-xl shadow-black">
+    <header id="shadow-light1" class="hidden lg:block shadow-xl shadow-black bg-gradient-to-r from-pink-200 to-red-400">
       <div class="grid grid-cols-8 drop-shadow">
         <div class="flex justify-center">
           <a href="http://localhost:8080/">
             <img
               class="py-4"
-              src="./assets/img/logo-wana-agency-web-rougeblanc.jpg"
+              src="../../assets/img/logo-no-background.svg"
               width="120px"
               height="auto"
               alt=""
           /></a>
         </div>
         <!-- A REVOIR!!! -->
-        <button type="button" id="btn-dark-mode1">
-          <i class="fa-solid fa-moon"></i>
-        </button>
+        <div class="flex col-span-2 justify-center items-center">
 
-        <div class="col-span-6 flex justify-center items-center">
+          <button type="button" id="btn-dark-mode1">
+          <img src="../../assets/img/soleil.png" alt="" width="90px" >
+          </button>
+        </div>
+
+        <div class="col-span-4 flex justify-center items-center">
           <nav class="text-3xl uppercase">
             <ul class="flex">
               <li>
@@ -65,7 +70,7 @@
 
     <!-- mod tablet & mobile -->
 
-    <header id="mobile-shadow-light1" class="lg:hidden shadow-xl shadow-black">
+    <header id="mobile-shadow-light1" class="lg:hidden shadow-xl shadow-black bg-gradient-to-r from-pink-200 to-red-400">
       <div class="grid grid-cols-3">
         <!-- btn menu burger -->
         <div class="flex items-center pl-6">
@@ -84,9 +89,10 @@
           /></a>
         </div>
 
-        <div class="flex justify-end items-center pr-6">
-          <button type="button" id="btn-dark-mode2">
-            <i class="fa-solid fa-moon text-6xl"></i>
+        <div class="flex  justify-center items-center">
+
+          <button type="button" id="btn-dark-mode1">
+          <img src="../../assets/img/soleil.png" alt="" width="90px" >
           </button>
         </div>
 
@@ -94,7 +100,7 @@
       </div>
       <div id="dark-burger" class="bg-pink-100">
         <nav
-          class="h-60 text-center flex justify-center items-center text-2xl hidden"
+          class="h-60 text-center flex justify-center items-center text-2xl hidden uppercase"
           id="menu-home-nav"
         >
           <ul>
@@ -133,16 +139,15 @@
 
     <!-- qui nous sommes -->
 
-    <main id="shadow-light2" class="shadow-xl shadow-black pb-20">
+    <main data-aos="zoom-in" id="shadow-light2" class=" pb-20 ">
       <div class="grid grid-cols-1 py-24">
-        <hr>
-        <h1 class="text-center uppercase text-3xl font-bold pb-10">
+        
+        <h1 class="text-center uppercase text-4xl font-bold py-12 border-y-2 border-red-400">
           Présentation de l'equipe Wana
         </h1>
-        <hr>
         <div class="grid grid-rows lg:grid-cols-3 pt-20">
-          <div
-            class="flex flex-col items-center pt-8 mx-8 my-4 md:mx-40 lg:m-0 lg:mx-8  xl:mx-14 shadow-xl shadow-black shadow-light-all rounded-3xl"
+          <div 
+            class="flex flex-col items-center pt-8 mx-8 my-4 md:mx-40 lg:m-0 lg:mx-8  xl:mx-14 shadow-xl shadow-black shadow-light-all rounded-3xl  hover:bg-red-400"
           >
             <h1 class="text-2xl font-bold uppercase">Warren</h1>
             <img
@@ -160,7 +165,7 @@
           </div>
 
           <div
-            class="flex flex-col items-center pt-8 mx-8 my-4 md:mx-40 lg:m-0 lg:mx-8 xl:mx-14 shadow-xl shadow-black shadow-light-all rounded-3xl"
+            class="flex flex-col items-center pt-8 mx-8 my-4 md:mx-40 lg:m-0 lg:mx-8 xl:mx-14 shadow-xl shadow-black shadow-light-all rounded-3xl  hover:bg-red-400"
           >
             <h1 class="text-2xl font-bold uppercase">Norman</h1>
             <img
@@ -178,7 +183,7 @@
             </p>
           </div>
           <div
-            class="flex flex-col items-center pt-8 mx-8 my-4 md:mx-40 lg:m-0 lg:mx-8 xl:mx-14 shadow-xl shadow-black shadow-light-all rounded-3xl"
+            class="flex flex-col items-center pt-8 mx-8 my-4 md:mx-40 lg:m-0 lg:mx-8 xl:mx-14 shadow-xl shadow-black shadow-light-all rounded-3xl  hover:bg-red-400"
           >
             <h1 class="text-2xl font-bold uppercase">Axel</h1>
             <img
@@ -200,9 +205,9 @@
 
       <!-- contacter nous -->
       <hr>
-      <h1 class="text-center uppercase font-bold text-3xl py-10">Nos moyens de contact</h1>
+      <h1 class="text-center uppercase  text-4xl font-bold py-12 border-y-2 border-red-400">Nos moyens de contact</h1>
       <hr>
-      <div class="grid grid-cols-8 py-24">
+      <div data-aos="zoom-in-down" class="grid grid-cols-8 py-24">
         <div
           class="col-start-2 col-span-2 text-center bg-red-200 rounded-xl hover:bg-pink-200 ease-in duration-500 flex flex-col justify-center remove-box-pink shadow-xl shadow-black shadow-light-all"
         >
@@ -349,7 +354,7 @@
     <!-- ********** Tablet & Desktop ******** -->
     <!-- logo  -->
 
-    <footer class="w-full hidden md:block lg:block">
+    <footer class="w-full hidden md:block lg:block bg-gradient-to-r from-pink-200 to-red-400">
       <div class="grid grid-cols-4">
         <div class="grid grid-rows-2 md:mx-4">
           <div class="flex justify-center items-center md:py-4">
@@ -454,4 +459,7 @@
       </div>
     </footer>
   </body>
+  <script>
+    AOS.init();
+  </script>
 </html>
