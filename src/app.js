@@ -58,7 +58,8 @@ import  "@fortawesome/fontawesome-free/js/all";
 
 
 
-// ** MENU BURGER **
+// ************* For homepage header *****************
+// ********* menu burger for tablet & mobile *********
 
 const btnHomeBurger = document.getElementById("btn-home-burger");
 const menuHomeNav = document.getElementById("menu-home-nav");
@@ -91,9 +92,11 @@ const darkBurger = document.getElementById("dark-burger");
 // for box contact remove bg
 const removeBoxPink = document.querySelectorAll("div.remove-box-pink");
 
+const rotateImg = document.getElementById("rotate-img");
+
+
 const darkMode = () => {
   body.classList.toggle("bg-black");
-
   body.classList.toggle("text-white");
   body.classList.toggle("bg-pink-100");
   shadowLight2.classList.toggle("shadow-black");
@@ -104,6 +107,10 @@ const darkMode = () => {
   mobileShadowLight1.classList.toggle("shadow-white");
   darkBurger.classList.toggle("bg-pink-100");
   darkBurger.classList.toggle("bg-black");
+  rotateImg.classList.toggle("rotate-0");
+  rotateImg.classList.toggle("rotate-180");
+  
+
   removeBoxPink.forEach((element) => {
     element.classList.toggle("bg-red-200");
     element.classList.toggle("bg-gray-500");
@@ -113,6 +120,11 @@ const darkMode = () => {
     element.classList.toggle("shadow-white");
   });
 };
+
+// const rotateLogo = () => {
+//   btnDarkMode1.style.transform = "rotate(90deg);";
+//   btnDarkMode2.style.transform = "rotate(90deg);";
+// };
 
 btnDarkMode1.addEventListener("click", darkMode);
 btnDarkMode2.addEventListener("click", darkMode);
