@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
   <title>WANA Agnecy</title>
   <link href="../../assets/css/output.css" rel="stylesheet">
   <link rel="shortcut icon" href="../../assets/img/favicon.ico" type="image/x-icon">
@@ -70,7 +73,7 @@
       <!-- btn menu burger -->
       <div class="flex items-center pl-6">
         <button type="button" id="btn-home-burger">
-          <i class="fa-solid fa-burger text-6xl"></i>
+          <i class="fa-solid fa-bars text-6xl"></i>
         </button>
       </div>
 
@@ -180,45 +183,54 @@
   </main>
 </div>
 <hr>
-<div class="text-center flex justify-center lg:grid  lg:grid-cols-3  lg:grid-rows-3 ml-10">
-  <div class="ml-1 shadow-2xl  shadow-black mt-5 h-auto bg-pink-200 w-96">
-    <h1 class="uppercase text-center text-2xl p-4 border-2 border-purple-900">Notre vision</h1>
-    <p class="mt-1 p-10">
-      Dans notre agence nous devons être connecté  constamment pour répondre a vos éxigence et avoir une meilleure expérience utilisateur possible.  
-    </p>
-    <div class="flex justify-center p-8">
-      <img class="h-auto w-20 lg:w-40" src="../../assets/img/clé-molette.png" width="300px" height="auto">               
-    </div>
-    <div class="py-8">
-      <button class="bg-white rounded-xl py-4 text-pink-900  hover:bg-pink-400 hover:text-white h-auto w-36 border-x-2 border-black">
-        En savoir +</button>
-    </div>
-  </div>
-  <div class="shadow-xl shadow-black  w-96   bg-pink-200 mt-5   ">
-    
-    <h1 class=" uppercase text-center text-2xl p-4 border-2 border-purple-900">NOTRE PROMESSE</h1>
-    
-    <p class="pt-4 p-7">
-      Vitesse,connectivité,esthétique,expérience,  <br> son nos  éléments clé pour prendre en une considération 
-      dans notre équipe de développeur et de graphiste nous aimons prendre du recule pour vous offrir <br> une meilleure utilsation de votre site web.
-    </p>
-    <div class="flex justify-center p-8">
-      
-      <img class="h-auto w-20 lg:w-40  justify-center"
-      src="../../assets/img/istockphoto-rose.png" width="300px" height="auto" >
-    </div>
-    <div class="py-8">
-      <button class="bg-white rounded-xl py-4 text-pink-900  hover:bg-pink-400 hover:text-white h-auto w-36 border-x-2 border-black">
-        En savoir +</button>
-    </div>
-  </div>
+<div  data-aos="zoom-in" class="text-center flex flex-col justify-center lg:grid lg:grid-cols-3   md:flex md:flex-col ml-" >
+  <div class=" flex justify-center">
 
-  <div class="shadow-xl shadow-black  w-96   bg-pink-200 mt-5   ">
+    <div   class=" shadow-2xl  shadow-black mt-5 h-auto bg-pink-200 w-96 ">
+      <h1 class="uppercase text-center text-2xl p-4 border-2 border-purple-900">Notre vision</h1>
+      <p class="mt-1 p-10">
+        Dans notre agence nous devons être connecté  constamment pour répondre a vos éxigence , avoir une meilleure expérience utilisateur possible et une excelente.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque distinctio maiores velit nisi quod perferendis. Facilis, autem doloremque porro quidem consectetur fugiat nemo, a quaerat veritatis aperiam.  
+      </p>
+      <div class="flex justify-center p-8">
+        <img class="h-auto w-20 lg:w-40" src="../../assets/img/clé-molette.png" width="300px" height="auto">               
+      </div>
+      <div class="py-8">
+        <button class="bg-white rounded-xl py-4 text-pink-900  hover:bg-pink-400 hover:text-white h-auto w-36 border-x-2 border-black">
+          En savoir +</button>
+        </div>
+    </div>
+  </div>
+  <div class="flex justify-center">
+
+    <div class="shadow-xl shadow-black  w-96   bg-pink-200 mt-5  ">
+      
+      
+      <h1 class=" uppercase text-center text-2xl p-4 border-2 border-purple-900">NOTRE PROMESSE</h1>
+      
+      <p class="pt-4 p-7">
+        Vitesse,connectivité,esthétique,expérience,  <br> son nos  éléments clé pour prendre en une considération 
+        dans notre équipe de développeur et de graphiste nous aimons prendre du recule pour vous offrir <br> une meilleure utilsation de votre site web. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque explicabo fuga itaque suscipit sunt laboriosam enim, temporibus minima, autem sint in, deserunt blanditiis magni cumque ut perferendis cupiditate molestias? Placeat?
+      </p>
+      <div class="flex justify-center p-8">
+        
+        <img class="h-auto w-20 lg:w-40  justify-center"
+        src="../../assets/img/istockphoto-rose.png" width="300px" height="auto" >
+      </div>
+      <div class="py-8">
+        <button class="bg-white rounded-xl py-4 text-pink-900  hover:bg-pink-400 hover:text-white h-auto w-36 border-x-2 border-black">
+          En savoir +</button>
+        </div>
+      </div>
+    </div>
+      
+<div class="flex justify-center">
+
+  <div class="shadow-xl shadow-black  w-96   bg-pink-200 mt-5 ">
     
     <h1 class=" uppercase text-center text-2xl p-4 border-2 border-purple-900 ">Notre approche</h1>
     
     <p class="pt-4 p-16">
-      On met un point d'honeur sur la qualité que  a la quantité chaque projet que nous feront  seront unique car vous êtaient unique.
+      On met un point d'honeur sur la qualité que  a la quantité chaque projet que nous feront  seront unique car vous êtaient unique. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa est in, adipisci reiciendis dolor dignissimos debitis obcaecati assumenda hic officiis praesentium mollitia magnam dolorem placeat voluptates, aliquam laudantium
     </p>
     <div class="flex justify-center p-8">
       
@@ -228,9 +240,10 @@
     <div class="py-8">
       <button class="bg-white rounded-xl py-4 text-pink-900  hover:bg-pink-400 hover:text-white h-auto w-36 border-x-2 border-black">
         En savoir +</button>
+      </div>
     </div>
   </div>
-  
+    
   <!-- <div class=""> -->
     
     <!-- <div class="mt-5  shadow-xl shadow-black w-96  bg-pink-200 ">
@@ -249,7 +262,7 @@
   </div> -->
 </div>
 
-<div class=" bg-pink-100 shadow-xl shadow-black pb-8">
+<div  data-aos="zoom-in" class=" bg-pink-100 shadow-xl shadow-black pb-8">
   
   <h1 class="text-5xl text-center mt-10   border-4 border-pink-200  p-2 ">
     Nos technologies
@@ -351,10 +364,13 @@
           Télécharger notre application
         </h1>
         <div class="flex justify-center items-center col-span-2">
-          <button class="w-28 h-28 hover:text-white">
-            <i class="text-5xl fa-brands fa-android"></i>
-          </button>
-          <button class="w-28 h-28 hover:text-white">
+          <div class="flex justify-center">
+            
+            <button class="w-28 h-28 hover:text-red-400">
+              <img src="../../assets/img/icons8-android-os.svg" alt="" >
+            </button>
+            </div>
+          <button class="w-28 h-28 hover:text-red-400">
             <i class="text-6xl fa-brands fa-apple"></i>
           </button>
         </div>
@@ -376,17 +392,17 @@
         <div class="text-5xl text-center py-10">
           <div>
             <a href=""
-              ><i class="fa-brands fa-linkedin hover:text-white"></i
+              ><i class="fa-brands fa-linkedin hover:text-red-400"></i
             ></a>
             <a href="https://github.com/Wana-171"
-              ><i class="fa-brands fa-square-github hover:text-white"></i
+              ><i class="fa-brands fa-square-github hover:text-red-400"></i
             ></a>
           </div>
           <a href="#"
-            ><i class="fa-brands fa-square-instagram hover:text-white"></i
+            ><i class="fa-brands fa-square-instagram hover:text-red-400"></i
           ></a>
           <a href="#"
-            ><i class="fa-brands fa-square-twitter hover:text-white"></i
+            ><i class="fa-brands fa-square-twitter hover:text-red-400"></i
           ></a>
         </div>
         <h1><i class="fa-regular fa-copyright"></i>Wana Agency</h1>
@@ -410,8 +426,10 @@
             />
           </a>
         </div>
-
-        <h1><i class="fa-regular fa-copyright"></i>Wana Agency</h1>
+        <div class="flex flex-row items-end py-4">
+          <i class="fa-regular fa-copyright"></i> &nbsp;<h1 class="">Wana Agency</h1>
+        </div>
+        
       </div>
 
       <!-- navbar footer 1 -->
@@ -464,18 +482,18 @@
         <div class="text-4xl text-center">
           <div class="flex flex-row justify-center py-8">
             <a href="#"
-              ><i class="fa-brands fa-linkedin hover:text-white"></i
+              ><i class="fa-brands fa-linkedin hover:text-red-400"></i
             ></a>
             <a href="https://github.com/Wana-171"
-              ><i class="fa-brands fa-square-github hover:text-white px-4"></i
+              ><i class="fa-brands fa-square-github hover:text-red-400 px-4"></i
             ></a>
             <a href="#"
               ><i
-                class="fa-brands fa-square-instagram hover:text-white pr-4"
+                class="fa-brands fa-square-instagram hover:text-red-400 pr-4"
               ></i
             ></a>
             <a href="#"
-              ><i class="fa-brands fa-square-twitter hover:text-white"></i
+              ><i class="fa-brands fa-square-twitter hover:text-red-400"></i
             ></a>
           </div>
         </div>
@@ -486,10 +504,13 @@
           Télécharger notre application
         </h1>
         <div class="flex flex-row justify-center items-center px-2">
-          <button class="w-28 h-28 hover:text-white">
-            <i class="text-5xl fa-brands fa-android"></i>
-          </button>
-          <button class="w-28 h-28 hover:text-white">
+          <div class="flex justify-center">
+              <button class="w-28 h-28 hover:text-red-400">
+
+              <img src="../../assets/img/icons8-android-os.svg" alt="" >
+            </button>
+            </div>
+          <button class="w-28 h-28 hover:text-red-400">
             <i class="text-6xl fa-brands fa-apple"></i>
           </button>
         </div>
@@ -497,4 +518,7 @@
     </div>
   </footer>
 </body>
+<script>
+  AOS.init();
+</script>
 </html>
